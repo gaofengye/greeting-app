@@ -28,9 +28,11 @@ const Table: FC<Props> = ({ data }) => {
     setTableData([
       ...data
         .sort((a, b) => {
+          // Need to find the right cell for each line
           const aCell = a.find((cell) => cell.columnName === fieldName);
           const bCell = b.find((cell) => cell.columnName === fieldName);
 
+          // Sort each line based on the sortOrder
           if (aCell && bCell) {
             if (aCell.value > bCell.value) {
               return sortOrder === 'ASC' ? 1 : -1;
@@ -46,6 +48,7 @@ const Table: FC<Props> = ({ data }) => {
         .map((line) => [
           ...line.map((cell) => ({
             ...cell,
+            // Update the sort order in each cell
             order: cell.columnName === fieldName ? (sortOrder === 'ASC' ? 'DESC' : 'ASC') : 'ASC',
           })),
         ]),
