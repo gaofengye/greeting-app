@@ -1,0 +1,22 @@
+.list {
+  display: flex;
+}
+
+.alignChoice {
+  margin-right: 22px;
+  background-color: #f1f1f1;
+  border-radius: 6px;
+  padding: 13px 50px;
+  border: 1px solid transparent;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 24px;
+  color: #999999;
+}
+
+.active {
+  border-color: #3860ad;
+  background-color: #ebf2ff;
+  color: #3860ad;
+}

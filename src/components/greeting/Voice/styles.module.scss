@@ -1,0 +1,50 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.player {
+  margin-bottom: 20px;
+  background-color: #f1f1f1;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  padding: 10px 17px;
+  border: 1px solid transparent;
+}
+
+.active {
+  border-color: #3860ad;
+  background-color: #ebf2ff;
+
+  .name {
+    color: #3860ad;
+  }
+}
+
+.button {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  position: relative;
+}
+
+.info {
+  margin-left: 18px;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.name {
+  color: #666666;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 18px;
+}

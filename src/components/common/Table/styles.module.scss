@@ -1,0 +1,38 @@
+.table {
+  width: 764px;
+  max-width: 100%;
+  margin-top: 20px;
+
+  th {
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: rgba(34, 34, 34, 0.5);
+    text-align: left;
+    vertical-align: middle;
+
+    svg {
+      display: inline-flex;
+      vertical-align: middle;
+    }
+  }
+
+  td {
+    font-weight: 500;
+    font-size: 0.9375rem;
+    line-height: 24px;
+    color: #222222;
+    padding: 19px 0;
+    vertical-align: middle;
+
+    svg {
+      display: flex;
+      cursor: pointer;
+    }
+  }
+}
+
+.rotate {
+  transform: rotate(180deg);
+}

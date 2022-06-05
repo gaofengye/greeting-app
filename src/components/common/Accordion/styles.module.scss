@@ -1,0 +1,37 @@
+.arrow {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.summary {
+  display: flex;
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  color: #999999;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 21px;
+  padding: 16px 14px 12px;
+}
+
+.active {
+  background-color: #ebf2ff;
+  width: 100%;
+
+  .summary {
+    color: #3860ad;
+    border-bottom: none;
+  }
+}
+
+.details {
+  padding: 15px 14px;
+}
+
+.accordion {
+  width: 100%;
+  margin-bottom: 16px;
+  border-radius: 6px;
+}

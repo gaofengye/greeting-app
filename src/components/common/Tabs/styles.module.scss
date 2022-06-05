@@ -1,0 +1,23 @@
+.tabs {
+  display: flex;
+  flex-direction: row;
+}
+
+.tab {
+  margin-right: 30px;
+  color: #999999;
+  font-weight: 500;
+  font-size: 0.9375rem;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.active {
+  color: #3860ad;
+}
+
+.panel {
+  display: flex;
+  margin-top: 29px;
+  width: 100%;
+}

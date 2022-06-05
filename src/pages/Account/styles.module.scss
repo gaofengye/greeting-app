@@ -1,0 +1,30 @@
+.title {
+  font-weight: 500;
+  font-size: 1.375rem;
+  line-height: 33px;
+}
+
+.logoutButton {
+  position: absolute;
+  top: 5px;
+  right: 30px;
+  border: none;
+  background-color: transparent;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.9375rem;
+  line-height: 22px;
+  color: #ee6363;
+}
+
+.head {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 27px;
+  padding-top: 5px;
+  position: relative;
+}
+
+.content {
+  margin-top: 28px;
+}
